@@ -5,10 +5,15 @@ body,html{
 	background-position: center;
 	background-repeat:no-repeat;
 		text-align: right;
+		background-color: #330033;
 }
 
 h1{
 font-size: 100px;
 font-family: ;
 color:white;
+}
+
+.logo{
+	float:left;
 }
