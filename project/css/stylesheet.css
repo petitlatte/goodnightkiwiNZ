@@ -1,8 +1,43 @@
 body,html{
 	margin:0;
 	padding:0;
-	background-position: center;
-	background-repeat:no-repeat;
-		text-align: right;
-		background-color: #330033;
+	color:white;
 }
+
+.wrapper{
+	position: relative;
+	width:100vw;
+	height:100vh;
+}
+
+#map{
+	position: absolute;
+	top:0; 
+	bottom:0; 
+	width:100%;
+	height:100%; 
+	z-index:-1;
+}
+
+#div-hover{
+		position: absolute;	
+		background-color: #330033;
+		width:400px;
+		height:400px;
+		top: 0;
+		left: 0;
+		padding:10px;
+	}
+
+	#div-hover #app-logo{
+		width:200px;
+	}
+
+	#div-hover a{
+		border: solid white 1px;
+		border-radius: 5px;
+		text-decoration: none;
+		padding:10px;
+		cursor:pointer;
+		box-shadow: 0 0 10px black;
+	}
