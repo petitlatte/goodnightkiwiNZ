@@ -21,12 +21,14 @@ body,html{
 
 #div-hover{
 		position: absolute;	
-		background-color: #330033;
-		width:400px;
-		height:400px;
+		background-image: linear-gradient(rgba(50,0,51,0.7),rgba(50,0,51,0.7)), url("../img/bg01.jpg");
+		background-position: center;
+		background-size:cover;
+		height:100vh;
+		width:100%;
+		min-height:450px;
 		top: 0;
 		left: 0;
-		padding:10px;
 	}
 
 	#div-hover #app-logo{
@@ -39,5 +41,10 @@ body,html{
 		text-decoration: none;
 		padding:10px;
 		cursor:pointer;
-		box-shadow: 0 0 10px black;
+	}
+
+	#div-hover a:hover{
+		background-color:white;
+		color: #330033;
+		transition: 0.5s ease;
 	}
