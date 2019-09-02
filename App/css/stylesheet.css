@@ -2,6 +2,7 @@ body,html{
 	margin:0;
 	padding:0;
 	color:white;
+font-family: 'Manjari', sans-serif;	
 }
 
 .wrapper{
@@ -52,14 +53,13 @@ body,html{
 	border-radius: 5px;
 }	
 
-	#div-hover #app-logo{
-		position:absolute;
-		top:0;
-		left:0;
-		width:200px;
-	}
-
-a{
+#div-hover #app-logo{
+	position:absolute;
+	top:0;
+	left:0;
+	width:200px;
+}
+#div-hover a{
 		border: solid white 1px;
 		border-radius: 5px;
 		text-decoration: none;
@@ -70,7 +70,7 @@ a{
 		right:0;
 	}
 
-a:hover{
+#div-hover a:hover{
 		background-color:white;
 		color: #330033;
 		transition: 0.5s ease;
