@@ -28,7 +28,7 @@ body,html{
 }
 
 .slider{
-	height:70%;
+	height:60vh;
 	width:50vw;
 }
 #div-hover{
@@ -75,3 +75,29 @@ a:hover{
 		color: #330033;
 		transition: 0.5s ease;
 	}
+
+/*SLICK SLIDER CSS*/
+
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+
+.slick-dots{
+	top:-90px !important;
+}
+
+	.slick-dots li button:before {
+    color: white;
+    font-size:15px;
+  }
+
+.slick-dots li.slick-active button:before {
+    color:pink !important;
+}
