@@ -29,8 +29,12 @@ font-family: 'Manjari', sans-serif;
 }
 
 .slider{
-	height:60vh;
+	display:flex;
+	align-items:baseline;
+	height:80vh;
 	width:50vw;
+	padding:30px;
+	outline: solid white 2px;
 }
 #div-hover{
 		position: absolute;
@@ -48,10 +52,13 @@ font-family: 'Manjari', sans-serif;
 	}
 
 #div-hover .container{
-	border: solid white 2px;
-	padding:30px;
-	border-radius: 5px;
+	visibility: hidden;
+}
+
+#div-hover .container .slick-initialized {
+	visibility: visible;
 }	
+
 
 #div-hover #app-logo{
 	position:absolute;
@@ -86,11 +93,6 @@ font-family: 'Manjari', sans-serif;
 .slick-slide
 {
     height: inherit !important;
-}
-
-
-.slick-dots{
-	top:-90px !important;
 }
 
 	.slick-dots li button:before {
