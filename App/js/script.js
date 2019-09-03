@@ -19,12 +19,12 @@ $("#removebutton").click(function(){
 
 
 
+//fire loading screen
+
+//Display results in div
+// $("#results")
 
 
-
-
-
-
-
+//click event: Display food options 
 
 }); //IFFE ENDS
