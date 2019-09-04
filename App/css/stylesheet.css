@@ -104,3 +104,19 @@ font-family: 'Manjari', sans-serif;
 .slick-dots li.slick-active button:before {
     color:pink !important;
 }
+
+#results{
+	position:absolute;
+	top:0;
+	left:0;
+	width:400px;
+	height:80vh;
+	margin:15px;
+background: linear-gradient(rgba(50,0,51,0.9),rgba(50,0,51,0.9));
+border-radius:5px;
+}
+
+#results-text{
+	margin:10px;
+	line-height: 1.8;
+}
