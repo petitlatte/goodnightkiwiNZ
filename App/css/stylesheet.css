@@ -5,6 +5,7 @@ body,html{
 font-family: 'Manjari', sans-serif;	
 }
 
+/*DIV HOVER CSS*/
 .wrapper{
 	position: relative;
 	width:100vw;
@@ -28,14 +29,6 @@ font-family: 'Manjari', sans-serif;
 	right:0;
 }
 
-.slider{
-	display:flex;
-	align-items:baseline;
-	height:80vh;
-	width:50vw;
-	padding:30px;
-	outline: solid white 2px;
-}
 #div-hover{
 		position: absolute;
 		top: 0;
@@ -67,24 +60,20 @@ font-family: 'Manjari', sans-serif;
 	width:200px;
 	margin:20px;
 }
-#div-hover a{
-		border: solid white 1px;
-		border-radius: 5px;
-		text-decoration: none;
-		padding:10px;
-		cursor:pointer;
-		position:absolute;
-		bottom:0;
-		right:0;
-	}
 
-#div-hover a:hover{
-		background-color:white;
-		color: #330033;
-		transition: 0.5s ease;
-	}
+
+
 
 /*SLICK SLIDER CSS*/
+
+.slider{
+	display:flex;
+	align-items:baseline;
+	height:80vh;
+	width:50vw;
+	padding:30px;
+	outline: solid white 2px;
+}
 
 .slick-track
 {
@@ -120,3 +109,42 @@ border-radius:5px;
 	margin:10px;
 	line-height: 1.8;
 }
+
+
+/*BUTTON CSS*/
+
+.button-container{
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.location-button{
+		border: solid white 2px;
+		border-radius: 20px;
+		text-decoration: none;
+		padding:10px 15px;
+		cursor:pointer;
+		background: none;
+		color:white;
+		margin:30px;
+		font-size:16px;
+font-family: 'Manjari', sans-serif;	
+}
+
+#div-hover a{
+		border: solid white 1px;
+		border-radius: 5px;
+		text-decoration: none;
+		padding:10px;
+		cursor:pointer;
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+
+#div-hover a:hover, .location-button:hover{
+		background-color:white;
+		color: #330033;
+		transition: 0.5s ease;
+	}
