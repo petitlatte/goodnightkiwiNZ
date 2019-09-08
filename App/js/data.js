@@ -1,7 +1,7 @@
 var data = [
 {	
 	AccomName:'A 3 star Hotel',
-	AccomType: 'Hotel'
+	AccomType: 'Hotel',
 	maxGuest:2,
 	image:'img/1.jpg',
 	nightPrice:'$157 / night',
@@ -11,7 +11,7 @@ var data = [
 {	
 
 	AccomName:'A 3 star Hotel',
-	AccomType: 'Hostel'
+	AccomType: 'Hostel',
 	maxGuest:6,
 	image:'img/2.jpg',
 	nightPrice:'$30 / night',
@@ -20,7 +20,7 @@ var data = [
 
 {	
 	AccomName:'A 3 star Hotel',
-	AccomType: 'Motel'
+	AccomType: 'Motel',
 	maxGuest:4,
 	image:'img/3.jpg',
 	nightPrice:'$90 / night',
@@ -29,7 +29,7 @@ var data = [
 
 {
 	AccomName:'Big House',
-	AccomType: 'House'
+	AccomType: 'House',
 	maxGuest:4,
 	image:'img/4.jpg',
 	nightPrice:'$240 / night',
