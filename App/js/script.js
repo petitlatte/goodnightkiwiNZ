@@ -9,6 +9,7 @@ $(document).ready(function(){
     dots:true,
     slidesToShow: 1,
     adaptiveHeight: true,
+	nextArrow: $('#button-next')    
   });
 
 
