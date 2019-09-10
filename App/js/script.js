@@ -51,6 +51,7 @@ map.flyTo({
 center: [168.6626,-45.0312], zoom:13});
 });
 
+
 //Go to next slide after selection
 
 $('#fly-Auckland').click(function(){

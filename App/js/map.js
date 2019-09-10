@@ -5,3 +5,7 @@ style: 'mapbox://styles/mapbox/streets-v11',
   center: [173, -41],
   zoom: 4.8,
 });
+
+//MARKERS 
+
+//help: https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/
